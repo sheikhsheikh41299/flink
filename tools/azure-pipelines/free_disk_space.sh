@@ -38,7 +38,9 @@ sudo apt-get remove -y '^llvm-.*'
 sudo apt-get remove -y 'php.*'
 sudo apt-get remove -y '^mongodb-.*'
 sudo apt-get remove -y '^mysql-.*'
-sudo apt-get remove -y azure-cli google-cloud-sdk hhvm google-chrome-stable firefox powershell mono-devel libgl1-mesa-dri
+sudo apt-get remove -y '^gfortran-.*'
+sudo apt-get remove -y '^gcc-.*'
+sudo apt-get remove -y ruby2.5-doc lxd humanity-icon-theme monodoc-manual samba-libs vim-runtime clang-tidy-9 g++-7 mysql-client-core-5.7 gcc-7 mono-llvm-support azure-cli google-cloud-sdk hhvm google-chrome-stable firefox powershell mono-devel libgl1-mesa-dri
 sudo apt-get autoremove -y
 sudo apt-get clean
 df -h
